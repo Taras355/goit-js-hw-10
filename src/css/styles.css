@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -12,9 +13,48 @@ body {
   line-height: 1.5;
 }
 
+/* .country- */
+
 #search-box {
   font: inherit;
   padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
+  min-width: 320px;
+  margin: 40px;
+}
+
+.country-list {
+  list-style: none;
+}
+
+.country-item {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  height: 50px;
+}
+
+.country-info {
+  padding-left: 40px;
+}
+
+.country-card {
+  margin-bottom: 48px;
+}
+
+.country-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.country-text {
+  font-size: 24px;
+}
+
+.country-descriptor {
+  font-weight: 700;
 }
